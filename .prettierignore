@@ -1,0 +1,23 @@
+# exclude everything by default
+*.*
+# exclude these files
+Dockerfile
+src/fonts/LICENSE
+# exclude these directories
+/assets/
+/bin/
+/config/
+/dist/
+/docker/
+/flow/
+/locale/
+/node_modules/
+/src/core/fonts/
+/src/locale/
+/tests/ui/
+/tests/frontend
+/coverage/
+# safe-list files we want to process
+!*.js
+!*.md
+!*.scss
